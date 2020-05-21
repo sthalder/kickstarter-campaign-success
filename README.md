@@ -43,8 +43,9 @@ Launch date and launch time are the columns having data for dimension whereas th
 •	Leading indicators 
 Number of backers, Amount pledged and staff pick. All these columns have data for dimension
 
-## Approach
+## Overall Framework
 Create a recommendation framework based on the success propensity:
+
 •	Estimate the probability of success before launch based on content uploaded
 •	Suggest improvement tips for a good launch
 •	Monitor response and refresh probabilities using a post-launch model with new predictors
