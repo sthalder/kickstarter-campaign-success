@@ -27,10 +27,12 @@ Identify factors that contribute to campaign success and predict success probabi
 
 ## Objective 
 •	Recommend creators on planning campaign content and launch to maximize the probability of success
+
 •	Identify projects that are below the threshold score for “success”, notify them about possible improvements
 
 ## Data Overview
 Our dataset has information on 211271 kickstarter campaigns (rows) and 38 columns. Of which, we have sub-categorized relevant columns as columns having data for dimension and columns not having data for dimension:
+
 •	Project Creation
 Creator ID, Location, Creation date, Project ID, Category/Sub-category. All columns have data for dimension
 
@@ -38,16 +40,17 @@ Creator ID, Location, Creation date, Project ID, Category/Sub-category. All colu
 Description, Multimedia, Network, Ad/Social media pages, Reward. Only the column on description has data for dimension
 
 •	Launch Plan
-Launch date and launch time are the columns having data for dimension whereas the column ‘notification list’ does not have data for dimension. 
+Launch date and launch time are the columns having data for dimension whereas the column ‘notification list’ does not have data for dimension
 
 •	Leading indicators 
 Number of backers, Amount pledged and staff pick. All these columns have data for dimension
 
 ## Overall Framework
 Create a recommendation framework based on the success propensity:
-
 •	Estimate the probability of success before launch based on content uploaded
+
 •	Suggest improvement tips for a good launch
+
 •	Monitor response and refresh probabilities using a post-launch model with new predictors
 
 
@@ -69,7 +72,11 @@ Since no real investment is made until the project succeeds, a symmetric misclas
 
 ## Recommendation Framework 
 •	Develop a rule-based rubric on the basis of variable importance results
+
 •	Categorize campaigns under “High”, “Medium” and “Low” risk of failure
+
 •	Select “Medium” and “Low” risk campaigns and evaluate campaign attributes as per the rubric
+
 •	Reach out to creators with targeted suggestions
+
 •	Monitor early indicators: Number of backers, Staff pick flag, Percentage of goal pledged
